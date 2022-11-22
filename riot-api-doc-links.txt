@@ -1,0 +1,3 @@
+[Useful Documentation Links]
+https://developer.riotgames.com/docs/portal#web-apis_response-codes
+https://developer.riotgames.com/docs/tft

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="riot_dataset_analysis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/na-challengers-25match-history.zip.zip!/" />
+      <root url="jar://$PROJECT_DIR$/all_grandmasters_tft_nov_22.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

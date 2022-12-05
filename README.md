@@ -6,7 +6,8 @@ Dataset analysis performed via Spark cluster-computation written in Scala langua
 
 
 Our scala takes a JSON input of match data and collects it into data rows of
-  placement, unit_name, rarity, tier
+
+  ```placement, unit_name, rarity, tier```
   
 We then use an rdd to reduce our data to 3 per unit, and get the average placement of a unit at tier 1, 2, and 3.
 

@@ -4,6 +4,8 @@ import spray.json._
 import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)
 import java.io._
 
+//Written by Tony Li
+
 object riot_tft_api_parsing {
   def main(args: Array[String]) {
     Logger.getLogger("org").setLevel(Level.OFF)

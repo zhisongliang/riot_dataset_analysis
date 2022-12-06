@@ -1,6 +1,8 @@
 from riotwatcher import LolWatcher, TftWatcher, ApiError
 import time
 
+#Written and adjusted by Tony Li, structure originally from Riot API Developer Documents.
+#API Key removed for obvious reasons
 ak = "APIKEYHERE"
 
 tft_watcher = TftWatcher(ak)

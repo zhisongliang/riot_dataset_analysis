@@ -15,4 +15,4 @@ Our scala takes a JSON input of match data and collects it into data rows of
   
 We then use an rdd to reduce our data, and get the average placement of a unit at tier 1, 2, and 3.
 
-This data is put into a dictionary where we can access an average placement, and the weight of the unit, to perform a weighted average across any number of units inputted, producing the expected placement.
+This data is put into an RDD where we can access an average placement, and the weight of the unit, to perform a weighted average across any number of units inputted, producing the expected placement.

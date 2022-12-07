@@ -7,3 +7,4 @@ Aggregation of 250 player's 25 match history data (~2 hours) : Zhisong
 Weighted Prediction Algorithm (~3 hours): Zhisong, Hannah, Tony
 Project on Server compatibility (~1 hour): David
 Report Writing (~2 hours): David, Tony, Hannah
+Presentation Slides (~3 hours): David, Zhisong, Tony, Hannah

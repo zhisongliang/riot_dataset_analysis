@@ -51,9 +51,12 @@ object AveragePlacement {
 
     //get the average placement for each unit
     val na_player_units_placement_avg = na_player_units_placement
-      .map(x => (x._1, (x._2, 1)))
-      .reduceByKey((a, b) => (a._1 + b._1, a._2 + b._2))
-      .map(x => (x._1, x._2._1 * 1.0 / x._2._2))
+      .combineByKey(
+        (v: Int) => (v, 1),
+        (acc: (Int, Int), v: Int) => (acc._1 + v, acc._2 + 1),
+        (acc1: (Int, Int), acc2: (Int, Int)) => (acc1._1 + acc2._1, acc1._2 + acc2._2)
+      )
+      .map{ case (key, value) => (key, value._1 / value._2.toDouble)}
       .sortBy(x => (x._1._1, x._1._3))
 
     na_player_units_placement_avg.collect.foreach { x =>

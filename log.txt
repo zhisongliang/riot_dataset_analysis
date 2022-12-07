@@ -1,0 +1,9 @@
+Log File of Group
+
+Riot Dev API to pull data (~3 hours): Tony
+Parsing of JSON to readable format in Scala (~2 hours) : Tony
+Mapping of metadata to only relevant data (~2 hours) : David, Zhisong, Tony
+Aggregation of 250 player's 25 match history data (~2 hours) : Zhisong
+Weighted Prediction Algorithm (~3 hours): Zhisong, Hannah, Tony
+Project on Server compatibility (~1 hour): David
+Report Writing (~2 hours): David, Tony, Hannah

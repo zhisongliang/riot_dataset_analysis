@@ -79,7 +79,7 @@ object AveragePlacement {
     val input_player_units_placement_avg_weight = na_player_units_placement_avg_weight.join(input_char_rarity)
 
     println("JOINED DATA: ")
-    input_player_units_placement_avg_weight.foreach{ x=>
+    input_player_units_placement_avg_weight.collect().foreach{ x=>
       //println(x._2)
       val character = x._1._1
       val tier = x._1._2
